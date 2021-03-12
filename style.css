@@ -41,3 +41,22 @@ button {
     font-weight: bold;
     padding: 10px;
 }
+@media only screen and (max-width: 426px) {
+  body {
+      border-style: hidden;
+  }
+ button {
+    left: 8em;
+    top: 30em;
+  }
+}
+
+  @media only screen and (max-width: 768px) {
+    body {
+        border-style: hidden;
+    }
+    button {
+      left: 15em;
+      top: 30em;
+    }
+  }
